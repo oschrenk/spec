@@ -21,9 +21,9 @@
 
 package dashboard
 
-import spec "github.com/perses/spec/cue/plugin"
+import pluginSpec "github.com/perses/spec/cue/plugin"
 
 #AnnotationSpec: {
 	display: #AnnotationDisplay @go(Display)
-	plugin:  spec.#Plugin       @go(Plugin)
+	plugin:  pluginSpec.#Plugin @go(Plugin)
 }
